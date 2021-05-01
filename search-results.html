@@ -20,16 +20,11 @@
                 <form id="user-form" class="card-body">
                     <!-- <label class="form-label" for="username">Username</label> -->
                     <input name="search" id="search" type="text" autofocus="true" class="form-input" />
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            placeholder for choice
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="#">photos</a></li>
-                            <li><a class="dropdown-item" href="#">newspapers</a></li>
-                        </ul>
-                    </div>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Select choice</option>
+                        <option value="1">photos</option>
+                        <option value="2">newspapers</option>
+                      </select>
                     <button type="submit" class="btn">Search</button>
                     <button type="submit" class="btn">Go Back</button>
                 </form>
