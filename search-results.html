@@ -21,12 +21,12 @@
                     <!-- <label class="form-label" for="username">Username</label> -->
                     <input name="search" id="search" type="text" autofocus="true" class="form-input" />
                     <select class="form-select" aria-label="Default select example">
-                        <option selected>Select choice</option>
-                        <option value="1">photos</option>
-                        <option value="2">newspapers</option>
+                        <!-- <option selected>Select choice</option> -->
+                        <option data-choice="photos" value="1">photos</option>
+                        <option data-choice="newspapers" value="2">newspapers</option>
                       </select>
-                    <button type="submit" class="btn">Search</button>
-                    <button type="submit" class="btn">Go Back</button>
+                    <button type="submit" class="btn" id="searchBtn">Search</button>
+                    <button type="submit" class="btn" id="goBackBtn">Go Back</button>
                 </form>
             </div>
         </div>
@@ -41,6 +41,7 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="./search-script.js"></script>
 </body>
 
 </html>
